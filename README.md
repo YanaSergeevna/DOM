@@ -109,8 +109,8 @@ sectionEven.onmouseout = function(event) {
 ```hTML
 .redBack {background-color: red!important;}
 ```
->Запустить код в консоли любой страницы
->Подсказка: используйте методы объекта `classList`
+Запустить код в консоли любой страницы
+Подсказка: используйте методы объекта `classList`
 ---
 ```JS
 var style = document.head.appendChild(document.createElement('style'));
@@ -130,8 +130,8 @@ var tags = [ "header", "footer", "main", "div", "p" ]
 ```hTML
 .redBack {background-color: red!important;}
 ```
->Запустить код в консоли любой страницы
->Подсказка: используйте методы объекта `classList`
+Запустить код в консоли любой страницы.
+Подсказка: используйте методы объекта `classList`
 ---
 ```JS
 var style = document.head.appendChild(document.createElement('style'));
