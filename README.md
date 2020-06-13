@@ -111,7 +111,6 @@ sectionEven.onmouseout = function(event) {
 ```
 Запустить код в консоли любой страницы
 Подсказка: используйте методы объекта `classList`
----
 ```JS
 var style = document.head.appendChild(document.createElement('style'));
 style.textContent = `.redBack{background-color: red!important;}`
@@ -127,12 +126,11 @@ for(var obj of collectionChildrenBody){
 var tags = [ "header", "footer", "main", "div", "p" ]
 ```
 и добавляет им класc:
-```hTML
+```html
 .redBack {background-color: red!important;}
 ```
 Запустить код в консоли любой страницы.
 Подсказка: используйте методы объекта `classList`
----
 ```JS
 var style = document.head.appendChild(document.createElement('style'));
 style.textContent = `.redBack{background-color: red!important;}`
